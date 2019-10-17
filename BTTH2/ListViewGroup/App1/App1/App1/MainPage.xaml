@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage"
+             Title="ListView Demo Tuan2">
+
+    <ScrollView>
+        <StackLayout>
+            <Button Text="ListView" x:Name="cmdlistView" Clicked="CmdlistView_Clicked"/>
+            <Button Text="ListViewGroup" x:Name="cmdlistViewGroup" Clicked="CmdlistViewGroup_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
